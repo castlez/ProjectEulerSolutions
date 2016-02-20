@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LargestPalindromNumber", "L
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "JCPyTools", "JCPyTools\JCPyTools.pyproj", "{944695B1-DF7D-4D64-B31D-785082265D02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestMultiple", "SmallestMultiple\SmallestMultiple.csproj", "{965A2549-103A-42A7-ACE2-F7D64217E641}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{7CB5A7A1-8867-469F-82F7-CEAC044FC3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{944695B1-DF7D-4D64-B31D-785082265D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{944695B1-DF7D-4D64-B31D-785082265D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965A2549-103A-42A7-ACE2-F7D64217E641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965A2549-103A-42A7-ACE2-F7D64217E641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965A2549-103A-42A7-ACE2-F7D64217E641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965A2549-103A-42A7-ACE2-F7D64217E641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
