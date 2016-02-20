@@ -1,5 +1,5 @@
 """
-LARGEST PALINDROME PRODUCT (PROJECT EULER 4) (UNFINISHED)
+LARGEST PALINDROME PRODUCT (PROJECT EULER 4) (FINISHED)
 This program finds the largest palindrom produced by multiplying
 two 3-digit numbers.
 
@@ -9,16 +9,17 @@ ALGORITHM
     because the solution is clearly in there 
     somewhere.
 """
-import msvcrt as m
+import sys
+sys.path.insert(0,'../JCPyTools')
+import JCPyTools as t
 def BruteForce():
     biggest = ""
-    for i in range(999,950,-1):
-       for j in range(999,950,-1):
+    for i in range(999,900,-1):
+       for j in range(999,900,-1):
            s = str(j*i)
            print("trying " + str(j) + " x " + str(i) + " = " + s +  "...")
-           wait()
            if(checkPalindrome(s)):
-               biggest = str(i*j)
+               biggest = s
            print("###################the biggest is" + biggest)
 
 def checkPalindrome(s):
@@ -27,15 +28,8 @@ def checkPalindrome(s):
         return True
     return False
 
-def wait():
-    m.getch()
-
-def printw(s):
-    print(s)
-    wait()
-
 if __name__ == "__main__":
-    printw("going to try brute force!...")
+    t.printw("going to try brute force!...")
     BruteForce()
 
 
